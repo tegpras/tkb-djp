@@ -1,0 +1,361 @@
+body{
+    background-color: #F4F6F7;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 125%;
+    color: white;
+}
+.wrapper{
+    max-width: 1200px;
+    min-width: 1200px;
+    margin: auto;
+}
+.clearfix::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+header{
+    height: 40px;
+    width: 1200px;
+    margin: auto;
+    background-color: #212c5f;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    float: left;
+    font-size: 14px;
+    padding: 8px;
+    font-weight: 700;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.link-active{
+    color: #ffc91b;
+}
+#border{
+    background-color: white;
+    height: 40px;
+    width: 1px;
+    padding: 0;
+}
+#box-cari{
+    border-style: solid;
+    border-width: 1px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: white;
+    height: 20px;
+    width: 150px;
+    float: left;
+    color: lightgray;
+    padding: 4px 0px 0px 6px ;
+    margin: 5px 1px 5px 380px;
+    font-size: 10px;
+}
+#cari{
+    border-style: solid;
+    border-width: 1px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #212c5f;
+    height: 20px;
+    width: 30px;
+    float: left;
+    color: white;
+    padding: 4px 0px 0px 6px ;
+    margin: 5px 0 5px 1px;
+    font-size: 10px;
+}
+#nama{
+    border-style: none;
+    border-width: 1px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #212c5f;
+    height: 20px;
+    width: 60px;
+    float: left;
+    color: white;
+    font-weight: 600;
+    padding-top: 15px;
+    padding-left: 10px;
+    margin-right: 1px; 
+    font-size: 10px;
+    text-align: center;
+}
+#user{
+    padding: 7px;
+}
+#banner img{
+    width: 1200px;
+    margin-top: 2px;
+}
+#aturan{
+    color: black;
+    padding-top: 10px;
+    }
+.aturan-block2{
+    border-style: solid;
+    border-right-style: none;
+    border-width: 1px;
+    border-color: lightgray;
+    background-color: white;
+    float: left;
+    min-width: auto;
+    box-sizing: border-box;
+    padding: 5px;
+    height: 60px;
+}
+.aturan-block2 img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    float: left;
+}
+#topik{
+    width: 27%;
+    float: left;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    background-color: white;
+    float: left;
+    min-width: auto;
+    box-sizing: border-box;
+    padding: 5px;
+    height: 60px;
+    margin-right: 15px;
+}
+#subtopik{
+    font-size: 18px;
+    color: black;
+    padding: 5px;
+}
+#isi{
+    color: black;
+    font-size: 14px;
+    line-height: 150%;
+    padding: 5px;
+    text-align: left;
+}
+.aturan{
+    float: left;
+    margin-top: 10px;
+    width: 65%;
+    height: auto;
+    min-width: auto;
+    background-color: #F4F6F7;
+    box-sizing: border-box;
+    margin-right: 60px;
+}
+#judul{
+    color: black;
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+#aturan-block{
+    border-style: solid;
+    height: auto;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: lightgray;
+    background-color: white;
+    margin-bottom: 10px;
+}
+#nomor{
+    color: black;
+    font-size: 14px;
+    text-align: justify;
+    line-height: 150%;
+    padding: 10px 10px 5px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+table{
+    border-collapse: collapse;
+    color: black;
+    width: 90%;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+tr{
+    
+}
+th{
+    border-collapse: collapse;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #212c5f;
+    color: white;
+    margin-right: 0px;
+    border-top-color: black;
+    border-bottom-color: black;
+    border-left-color: black;
+    border-right-color: white;
+}
+td{
+    border-style: solid;
+    border-width: 1px;
+    text-align: left;
+    padding: 5px;
+}
+#no{
+    text-align: center;
+    width: 30px;
+}
+#no1{
+    text-align: left;
+    width: 300px;
+}
+#no1 a{
+    text-decoration: none;
+    color: black;
+}
+#no2{
+    width: 275px;
+}
+#no2 img{
+    height: 15px;
+    width: 30px;
+    margin-right: 2px;
+}
+#no3{
+    width: 70px;
+    text-align: right;
+}
+#no4{
+    width: 30px;
+    text-align: center;
+    border-right-color: white;
+}
+#no4 img{
+    height: 15px;
+    width: 30px;
+}
+#perihal{
+    color: black;
+    font-size: 14px;
+    padding: 10px;
+    text-align: justify;
+    line-height: 150%;
+    margin-bottom: 5px;
+    font-weight: 400;
+    margin-left: 30px;
+}
+#perihal2{
+    color: black;
+    font-size: 14px;
+    padding: 10px;
+    text-align: justify;
+    line-height: 150%;
+    margin-bottom: 5px;
+    font-weight: 400;
+    margin-left: 30px;
+}
+#lihat{
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 30px;
+    background-color: #212c5f;
+    width: 200px;
+    font-size: 14px;
+    padding: 5px;
+    text-align: center;
+    line-height: 150%;
+    margin-bottom: 10px;
+    margin-left: 300px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+#lihat a{
+    text-decoration: none;
+    color: white;
+}
+#pencarian{
+    float: right;
+    width: 30%;
+    height: auto;
+    padding-top: 15px;
+    min-width: auto;
+    background-color: #F4F6F7;
+    box-sizing: border-box;
+    color: black;
+}
+#cari-box{
+    border-style: solid;
+    width: 78%;
+    border-width: 1px;
+    border-color: lightgray;
+    padding: 20px 40px;
+    border-radius: 5px;
+    background-color: white;
+}
+#cari-box1{
+    margin-bottom: 10px;
+    background-color: white;
+}
+#cari-box2{
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    border-radius: 5px;
+    background-color: white;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+#cari-box3{
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    background-color: #212c5f;
+    color: white;
+    border-radius: 5px;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+#cari-box4{
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    background-color: #ffc91b;
+    color: white;
+    border-radius: 5px;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+#tombol{
+    padding: 5px;
+    font-weight: 900;
+}
+footer{
+    height: 35px;
+    width: 1200px;
+    margin: auto;
+    margin-top: 430px;
+    background-color: #212c5f;
+}
+#ulbawah{
+    list-style-type: none;
+    margin-left: 375px;
+}
+#libawah{
+    float: left;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 
+}
+#abawah{
+    text-decoration: none;
+    color: white;
+}

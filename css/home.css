@@ -1,0 +1,273 @@
+body{
+    background-color: #F4F6F7;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 125%;
+    color: white;
+}
+.wrapper{
+    max-width: 1200px;
+    min-width: 1200px;
+    margin: auto;
+}
+.clearfix::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+header{
+    height: 40px;
+    width: 1200px;
+    margin: auto;
+    background-color: #212c5f;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    float: left;
+    font-size: 14px;
+    padding: 8px;
+    font-weight: 700;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.link-active{
+    color: #ffc91b;
+}
+#border{
+    background-color: white;
+    height: 40px;
+    width: 1px;
+    padding: 0;
+}
+#box-cari{
+    border-style: solid;
+    border-width: 1px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: white;
+    height: 20px;
+    width: 150px;
+    float: left;
+    color: lightgray;
+    padding: 4px 0px 0px 6px ;
+    margin: 5px 1px 5px 437px;
+    font-size: 10px;
+}
+#cari{
+    border-style: solid;
+    border-width: 1px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #212c5f;
+    height: 20px;
+    width: 30px;
+    float: left;
+    color: white;
+    padding: 4px 0px 0px 6px ;
+    margin: 5px 0 5px 1px;
+    font-size: 10px;
+}
+#nama{
+    border-style: none;
+    border-width: 1px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #212c5f;
+    height: 20px;
+    width: 60px;
+    float: left;
+    color: white;
+    font-weight: 600;
+    padding-top: 15px;
+    padding-left: 10px;
+    margin-right: 1px; 
+    font-size: 10px;
+    text-align: center;
+}
+#user{
+    padding: 7px;
+    margin-top: 10px;
+}
+#banner img{
+    width: 1200px;
+    margin-top: 1px;
+}
+#aturan{
+    color: black;
+    padding-top: 10px;
+    }
+#judul{
+    font-size: 20px;
+    color:black;
+    font-weight: bolder;
+}
+.aturan-block1{
+    float: left;
+    width: 390px;
+    height: 200px;
+    min-width: auto;
+    margin-right: 10px;
+    border-style: solid;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-width: 1px;
+    border-color: lightgray;
+    background-color: white;
+    padding: 20px;
+    box-sizing: border-box;
+}
+#subjudul{
+    color: #121212;
+    font-size: 16px;
+    font-weight: bolder;
+}
+#subjudul a{
+    text-decoration: none;
+    color: #212c5f;
+}
+#perihal{
+    color: #5a5a5a;
+    font-size: 14px;
+    text-align: justify;
+    line-height: 150%;
+}
+.tanggal{
+    float: left;
+    width: 390px;
+    height: 50px;
+    min-width: auto;
+    margin-right: 10px;
+    border-style: solid;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-width: 1px;
+    border-top-style: none;
+    border-color: lightgray;
+    background-color: white;
+    padding: 17px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+.tanggal p{
+    color: #888888;
+}
+#lengkap{
+    float: right;
+    width: 100%;
+    min-width: auto;
+    background-color: #F4F6F7;
+    text-align: center;
+    margin-top: 15px;
+}
+#lihat{
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 15px;
+    width: 15%;
+    border-color: lightgray;
+    background-color: #212c5f;
+    padding: 10px;
+    margin-bottom: 30px;
+    margin-left: 500px;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+}
+#resume{
+    color: black;
+    padding-top: 10px;
+    }
+#resume-judul{
+    font-size: 20px;
+    color:black;
+    font-weight: bolder;
+}
+.resume-block1{
+    float: left;
+    width: 390px;
+    height: 125px;
+    min-width: auto;
+    margin-right: 10px;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: lightgray;
+    background-color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+#resume-subjudul{
+    color: #212c5f;
+    font-size: 14px;
+    font-weight: bolder;
+}
+#resume-subjudul a{
+    text-decoration: none;
+    color: #212c5f;
+}
+#perihal-resume{
+    color: black;
+    font-size: 12px;
+    text-align: justify;
+    line-height: 150%;
+    font-weight: lighter;
+}
+#a1{
+    text-decoration: none;
+    color: white;
+}
+.aturan-block2{
+    float: left;
+    height: 100px;
+    min-width: auto;
+    box-sizing: border-box;
+    padding-right: 2%;
+}
+.aturan-block2 img{
+    height: 50px;
+    width: 50px;
+    float: left;
+}
+#topik{
+    width: 27%;
+    float: left;
+}
+#subtopik{
+    font-size: 20px;
+    color: #212c5f;
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+#isi{
+    color: black;
+    line-height: 150%;
+    padding-right: 30px;
+    text-align: justify;
+    height: 50px;
+}
+footer{
+    height: 35px;
+    width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: #212c5f;
+}
+#ulbawah{
+    list-style-type: none;
+    margin-left: 375px;
+}
+#libawah{
+    float: left;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 
+}
+#abawah{
+    text-decoration: none;
+    color: white;
+}

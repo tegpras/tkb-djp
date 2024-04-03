@@ -1,0 +1,243 @@
+body{
+    background-color: #F4F6F7;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 125%;
+    color: white;
+}
+.wrapper{
+    max-width: 1200px;
+    min-width: 1200px;
+    margin: auto;
+}
+.clearfix::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+header{
+    height: 40px;
+    width: 1200px;
+    margin: auto;
+    background-color: #212c5f;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    float: left;
+    font-size: 14px;
+    padding: 8px;
+    font-weight: 700;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.link-active{
+    color: #ffc91b;
+}
+#border{
+    background-color: white;
+    height: 40px;
+    width: 1px;
+    padding: 0;
+}
+#box-cari{
+    border-style: solid;
+    border-width: 1px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: white;
+    height: 20px;
+    width: 150px;
+    float: left;
+    color: lightgray;
+    padding: 4px 0px 0px 6px ;
+    margin: 5px 1px 5px 437px;
+    font-size: 10px;
+}
+#cari{
+    border-style: solid;
+    border-width: 1px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #212c5f;
+    height: 20px;
+    width: 30px;
+    float: left;
+    color: white;
+    padding: 4px 0px 0px 6px ;
+    margin: 5px 0 5px 1px;
+    font-size: 10px;
+}
+#nama{
+    border-style: none;
+    border-width: 1px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #212c5f;
+    height: 20px;
+    width: 60px;
+    float: left;
+    color: white;
+    font-weight: 600;
+    padding-top: 15px;
+    padding-left: 10px;
+    margin-right: 1px; 
+    font-size: 10px;
+    text-align: center;
+}
+#user{
+    padding: 7px;
+}
+#banner img{
+    width: 1200px;
+    margin-top: 2px;
+}
+.direktori{
+    float: left;
+    margin-top: 10px;
+    width: 65%;
+    height: auto;
+    min-width: auto;
+    background-color: #F4F6F7;
+    box-sizing: border-box;
+    margin-right: 60px;
+}
+#judul{
+    color: black;
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+#unit{
+    border-style: solid;
+    height: 40px;
+    border-width: 1px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-color: lightgray;
+    background-color: #212c5f;
+}
+#unit-kerja{
+    color: black; 
+}
+#ul1{
+    list-style-type: none;
+}
+#li1{
+    float: left;
+    font-size: 14px;
+    padding: 10px;
+    font-weight: 700;
+    color:white;
+}
+#a1{
+    text-decoration: none;
+    color: white;    
+    }
+#link-active{
+    color: #ffc91b;
+}
+#kpdjp{
+    border-style: solid;
+    border-top-style: none;
+    height: auto;
+    border-width: 1px;
+    border-color: lightgray;
+    background-color: white;
+    color: black;
+    padding: 10px;
+}
+#kantor{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+}
+#alamat{
+    line-height: 150%;
+    font-size: 14px;
+    font-weight: 350;
+}
+#pencarian{
+    float: right;
+    width: 30%;
+    height: auto;
+    min-width: auto;
+    margin-top: 10px;
+    background-color: #F4F6F7;
+    box-sizing: border-box;
+    color: black;
+}
+#cari-box{
+    border-style: solid;
+    width: 78%;
+    border-width: 1px;
+    border-color: lightgray;
+    padding: 20px 40px;
+    border-radius: 5px;
+    background-color: white;
+}
+#cari-box1{
+    margin-bottom: 10px;
+    background-color: white;
+}
+#cari-box2{
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    border-radius: 5px;
+    background-color: white;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+#cari-box3{
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    background-color: #212c5f;
+    color: white;
+    border-radius: 5px;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+#cari-box4{
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    background-color: #ffc91b;
+    color: white;
+    border-radius: 5px;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+}
+#tombol{
+    padding: 5px;
+    font-weight: 900;
+}
+footer{
+    height: 35px;
+    width: 1200px;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #212c5f;
+}
+#ulbawah{
+    list-style-type: none;
+    margin-left: 375px;
+}
+#libawah{
+    float: left;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 
+}
+#abawah{
+    text-decoration: none;
+    color: white;
+}

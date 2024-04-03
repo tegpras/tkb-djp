@@ -1,0 +1,289 @@
+body{
+    background-color: #F4F6F7;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 125%;
+    color: white;
+}
+.wrapper{
+    max-width: 1200px;
+    min-width: 1200px;
+    margin: auto;
+}
+.clearfix::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+header{
+    height: 40px;
+    width: 1200px;
+    margin: auto;
+    background-color: #212c5f;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    float: left;
+    font-size: 14px;
+    padding: 8px;
+    font-weight: 700;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.link-active{
+    color: #ffc91b;
+}
+#border{
+    background-color: white;
+    height: 40px;
+    width: 1px;
+    padding: 0;
+}
+#box-cari{
+    border-style: solid;
+    border-width: 1px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: white;
+    height: 20px;
+    width: 150px;
+    float: left;
+    color: lightgray;
+    padding: 4px 0px 0px 6px ;
+    margin: 5px 1px 5px 435px;
+    font-size: 10px;
+}
+#cari{
+    border-style: solid;
+    border-width: 1px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #212c5f;
+    height: 20px;
+    width: 30px;
+    float: left;
+    color: white;
+    padding: 4px 0px 0px 6px ;
+    margin: 5px 0 5px 1px;
+    font-size: 10px;
+}
+#nama{
+    border-style: none;
+    border-width: 1px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #212c5f;
+    height: 20px;
+    width: 60px;
+    float: left;
+    color: white;
+    font-weight: 600;
+    padding-top: 15px;
+    padding-left: 10px;
+    margin-right: 1px; 
+    font-size: 10px;
+    text-align: center;
+}
+#user{
+    padding: 7px;
+}
+#banner img{
+    width: 1200px;
+    margin-top: 2px;
+}
+.link{
+    float: left;
+    width: 15%;
+    height: auto;
+    min-width: auto;
+    background-color: #F4F6F7;
+    box-sizing: border-box;
+    border-style: solid;
+    height: 50px;
+    border-width: 1px;
+    border-color: lightgray;
+    background-color: white;
+}
+#link1{
+    color: black;
+    margin-top: 5px;
+    font-weight: bolder;
+    font-size: 14px;
+    text-align: justify;
+    line-height: 150%;
+    padding: 10px;
+    font-weight: bold;
+}
+#link1 img{
+    height: 15px;
+    width: 15px;
+    margin-right: 5px;
+}
+#link1 a{
+    text-decoration: none;
+    color: #212c5f;
+}
+.aturan{
+    float: right;
+    width: 100%;
+    height: auto;
+    min-width: auto;
+    background-color: white;
+    box-sizing: border-box;
+    border-style: solid;
+    height: 35px;
+    border-width: 1px;
+    border-color: lightgray;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+#nomor{
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: justify;
+    line-height: 150%;
+    padding-bottom: 5px;
+    margin-top: 10px;
+}
+#perihal{
+    color: black;
+    font-size: 14px;
+    padding: 10px;
+    text-align: justify;
+    line-height: 150%;
+    font-weight: lighter;
+}
+.status{
+  float: left;
+    width: 100%;
+    height: auto;
+    min-width: auto;
+    box-sizing: border-box;  
+}
+#status-block{
+    border-style: solid;
+    border-bottom-style: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    height: auto;
+    border-width: 1px;
+    border-color: lightgray;
+    background-color: white;  
+}
+#status1{
+    color: black;
+    font-size: 12px;
+    text-align: justify;
+    line-height: 150%;
+    padding: 5px;
+    font-weight: bold;  
+}
+.isi{
+    float: left;
+    width: 100%;
+    height: auto;
+    min-width: auto;
+    background-color: #F4F6F7;
+    box-sizing: border-box;
+    
+}
+#isi-aturan{
+    border-style: solid;
+    height: auto;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: lightgray;
+    background-color: white;
+    color: black;
+    font-size: 12px;
+    line-height: 150%;
+    padding-top: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 10px;
+    
+}
+#li1{
+    list-style-type: upper-roman;
+}
+#ol1{
+    list-style-type: upper-alpha;
+    list-style-position: inside;
+    text-align: justify;
+}
+#a1{
+    text-decoration: none;
+    color: black;
+}
+#aturan-terkait{
+   border-style: solid;
+    height: auto;
+    border-width: 1px;
+    border-color: lightgray;
+    background-color: white;
+    line-height: 150%;
+}
+#judul-terkait{
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    background-color: #212c5f;
+    padding: 5px 10px;
+    font-size: 12px;
+    color: white;
+}
+#tabel{
+    border-collapse: collapse;
+    color: black;
+    width: 95%;
+    margin-left: 15px;
+}
+#kol1{
+    font-size: 11px;
+}
+#kol2{
+    text-align: justify;
+    padding: 2px;
+    font-size: 11px;
+}
+#kembali{
+   border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: lightgray;
+    background-color: #212c5f;
+    padding: 5px;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    width: 100px;
+    margin-left: 480px;
+}
+#kembali1 a{
+    text-decoration: none;
+    color: white;
+}
+footer{
+    height: 35px;
+    width: 1200px;
+    margin: auto;
+    background-color: #212c5f;
+}
+#ulbawah{
+    list-style-type: none;
+    margin-left: 375px;
+}
+#libawah{
+    float: left;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 
+}
+#abawah{
+    text-decoration: none;
+    color: white;
+}

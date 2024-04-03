@@ -1,0 +1,119 @@
+body{
+    background-color: white;
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 125%;
+    color: black;
+}
+.wrapper{
+    width: auto;
+    padding: 0 40px;
+    margin: auto;
+}
+header{
+    height: 150px;
+    /* background-image: url(../img/bg-white.jpg);*/
+    background-size: cover;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    float: left;
+    padding: 25px 50px 25px 0;
+}
+nav ul .li-last{
+    padding-right: 0; 
+}
+nav ul li a{
+    color: b;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#logo-djp{
+    padding-top: 20px;
+}
+#logo-djp img{
+    height: 50px;
+}
+#logo-tkb{
+    text-align: center;
+    padding-right: 0;
+}
+#logo-tkb img{
+    height: 100px;
+}
+p{
+    text-align: center;
+    color: gray;
+}
+.login{
+    margin: auto;
+    width: 34%;
+}
+.login-tkb{
+    width: 400px; 
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 2%;
+}
+.box1{
+    margin: auto;
+    width: 100%;
+    border-style: solid;
+    border-color: lightgray;
+    border-radius: 5px;
+    border-width: 1px;
+    height: 40px;
+    padding: 10px;
+    color: lightgray;
+    text-align: left;
+    box-sizing: border-box;
+}
+.box2{
+    margin: auto;
+    width: 100%;
+    border-style: solid;
+    border-color: lightgray;
+    border-radius: 5px;
+    border-width: 1px;
+    height: 40px;
+    padding: 10px;
+    color: lightgray;
+    text-align: left;
+    margin-top: 2%;
+    box-sizing: border-box;
+}
+.p2{
+    text-align: center;
+    padding-top: 2%;
+    color: gray;
+    font-size: 10px;
+}
+.sign-in{
+    margin: auto;
+    width: 100%;
+    padding-top: 1%
+}
+.box3{
+    margin: auto;
+    width: 80px;
+    border-style: solid;
+    border-radius: 5px;
+    background-color: #212c5f;
+    color: white;
+    border-width: 1px;
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    margin-bottom: 200px;
+}
+footer{
+    color: lightgray;
+    text-align: right;
+    font-size: 14px;
+    padding: 15px 0;
+}
